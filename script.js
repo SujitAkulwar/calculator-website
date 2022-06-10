@@ -1,9 +1,6 @@
 function calculate() {
-    var p;
-    var q;
-    p = document.getElementById("result").value;
-    q = eval(p);
-    document.getElementById("result").value = q;
+    var p = document.getElementById("result").value;
+    document.getElementById("result").value =  eval(p);
 }
 
 function display(value) {
