@@ -1,66 +1,55 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: rgba(0, 247, 255, 0.3);
     font-family: 'Poppins', sans-serif;
-    font-size: 3vh;
-    font-weight: 1000;
+    font-size: 30px;
 }
 
-.table {
-    padding: 2vh;
-    border-radius: 2vh;
+body{
+    display: flex;
     height: 100vh;
-    width: 70vh;
     margin: auto;
-    background-color: #191b28;
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
 }
-
-.display-box {
-    border: solid black 1vh;
-    border-radius:1vh;
-    width: 97%;
-    height: 40%;
-    padding: 0;
+table{
+    border: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.6);
 }
-
-.button {
-    background-color: #84fffb;
-    border: solid black 0.5px;
-    width: 70%;
-    border-radius: 1vh;
-    height: 70%;
-    outline: none;
-    margin-left: 2vh;
-    padding: 0;
+tr{
+    display: flex;
+    justify-content: space-between;
+    height: fit-content;
+    width: fit-content;
+    border: 0;
 }
-
-.button1{
-    background-color: #84fffb;
-    border: solid black 0.5px;
-    width: 70%;
-    border-radius: 1vh;
-    height: 70%;
-    outline: none;
-    margin-left: 1vh;
-    padding: 0;
+.input{
+    width:415px;
+    height: 50px;
+    padding-left: 10px;
+}
+.button{
+    height: 120px;
+    width: 120px;
+}
+.in{
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
 }
 .button2{
-    color: azure;
-    background-color: #84fffb;
-    border: solid black 0.5px;
-    width: 70%;
-    border-radius: 1vh;
-    height: 45%;
-    outline: none;
-    margin-left: 1vh;
-    padding: 0;
+    height: 50px;
+    width: 50px;
 }
-
-.button:active ,.button1:active{
- background: rgba(0, 0, 0, 0.4);
- -webkit-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
- -moz-box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
- box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.5);
+input{
+    cursor: pointer;
+}
+.button,.button2{
+    background-color: rgb(225, 225, 225);
+}
+.button:hover,.button2:hover{
+    background-color: rgb(218, 255, 253);
 }
